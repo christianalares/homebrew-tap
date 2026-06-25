@@ -1,6 +1,6 @@
 cask "kommando" do
-  version "0.3.2,7"
-  sha256 "4df04cfa974505e5416524b658d263262043b928160bbe8f1196db12db9f0dc5"
+  version "0.3.3,8"
+  sha256 "617b84bb05e7a95ef172613fa0891fa90bc4f0357c430b2033a4dd6f26b25a49"
 
   url "https://github.com/christianalares/kommando/releases/download/downloads/Kommando-#{version.csv.first}.zip"
   name "Kommando"
