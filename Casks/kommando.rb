@@ -4,7 +4,7 @@ cask "kommando" do
 
   url "https://github.com/christianalares/kommando/releases/download/downloads/Kommando-#{version}.zip"
   name "Kommando"
-  desc "Modern macOS terminal with a built-in AI assistant and MCP server"
+  desc "Terminal with a built-in AI assistant and MCP server"
   homepage "https://github.com/christianalares/kommando"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "kommando" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Kommando.app"
 
